@@ -1,6 +1,6 @@
-// This function loads pokemon data from the Pokemon API
+// This function loads data from the API
 function fetchChuckNorrisFactJSON() {
-    // Feel free to download this HTML and edit it, to use another Pokemon ID
+
     const url = 'https://api.chucknorris.io/jokes/random';
     axios.get(url)
         .then(function (response) {
